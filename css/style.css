@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+
+h1 {
+    font-family: 'Bona Nova', serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Bona Nova', serif;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Bona Nova', serif;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Inter', serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.first-p {
+    font-family: 'Inter', serif;
+    font-weight: 500;
+}
+
+.p-meny {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.p-meny:hover {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #9C8671;
+}
+
+body {
+    background-color: #F2F1F0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 140px;
+    align-items:center;
+    background-color: #171717;
+    padding: 32px;
+    color: #F2F1F0;
+}
+
+header nav {
+    margin-right: 157px;
+}
+
+@media screen and (min-width: 700px) {
+    header {
+        justify-content: space-between;
+    }
+}
+
+header ul {
+    display: none;
+}
+
+@media screen and (min-width: 700px) {
+    header ul {
+        list-style: none;
+        display: flex;
+        gap: 100px;
+    }
+}
+
+.hamburger {
+    display: block;
+}
+
+@media screen and (min-width: 700px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    header {
+        display: block;
+        background-color: #171717;
+    }
+}
+
+.logo {
+    margin: 0 0 0 157px;
+    font-family: 'Bona Nova', serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.header2 {
+    position: absolute;
+    left: 356px;
+    top: 1058px;
+    color: #F2F1F0
+}
+
+.big-image {
+    background-color: #171717;
+    height: 977px;
+    width: 100%;
+}
+
+.intro-container {
+    font-family: 'Inter', serif;
+    font-size: 24pt;
+    font-weight: 500;
+    position: absolute;
+    left: 50%;
+    top: 1398px;
+    transform: translate(-50%,-50%);
+    width: 985px;
+}
+
+.image-2 {
+    position: absolute;
+    width: 281px;
+    left: 567px;
+    top: 1853px;
+}
+
+.image-1 {
+    position: absolute;
+    width: 512px;
+    left: 10%;
+    top: 1766px;
+}
+
+.header3-1 {
+    position: absolute;
+    left: 157px;
+    top: 2383px;
+}
+
+.paragraph-container-1 {
+    position: absolute;
+    width: 304px;
+    left: 223px;
+    top: 2507px;
+}
+
+.image-3 {
+    position: absolute;
+    width: 281px;
+    left: 566px;
+    top: 2507px;
+}
+
+.image-4 {
+    position: absolute;
+    width: 585px;
+    left: 157px;
+    top: 2934px;
+}
+
+.image-5 {
+    position: absolute;
+    width: 469px;
+    left: 1102px;
+    top: 2363px;
+}
+
+.image-6 {
+    position: absolute;
+    width: 264px;
+    left: 970px;
+    top: 2627px;
+}
+
+.image-7 {
+    position: absolute;
+    width: 512px;
+    left: 962px;
+    top: 3359px;
+}
+
+.image-8 {
+    position: absolute;
+    width: 281px;
+    left: 1284px;
+    top: 3454px;
+}
+
+.header3-2 {
+    position: absolute;
+    left: 1290px;
+    top: 2893px;
+}
+
+.paragraph-container-2 {
+    position: absolute;
+    width: 208px;
+    left: 1357px;
+    top: 2997px;
+}
+
+.header3-3 {
+    position: absolute;
+    left: 157px;
+    top: 4026px;
+}
+
+.paragraph-container-3 {
+    position: absolute;
+    width: 526px;
+    left: 216px;
+    top: 4136px;
+}
