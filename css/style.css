@@ -1,27 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
 
+html {
+    font-size: 20px;
+    width: 100%;
+}
+
 h1 {
     font-family: 'Bona Nova', serif;
-    font-size: 64px;
+    font-size: 3.4rem;
     font-weight: 400;
 }
 
 h2 {
     font-family: 'Bona Nova', serif;
-    font-size: 44px;
+    font-size: 2.2rem;
     font-weight: 400;
 }
 
 h3 {
     font-family: 'Bona Nova', serif;
-    font-size: 44px;
+    font-size: 2.2rem;
     font-weight: 400;
 }
 
 p {
     font-family: 'Inter', serif;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
@@ -33,13 +38,13 @@ p {
 .p-meny {
     font-family: 'Inter', serif;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 1.3rem;
 }
 
 .p-meny:hover {
     font-family: 'Inter', serif;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 1.3rem;
     color: #9C8671;
 }
 
@@ -51,15 +56,15 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 140px;
+    height: 7rem;
     align-items:center;
     background-color: #171717;
-    padding: 32px;
+    padding: 1.6rem;
     color: #F2F1F0;
 }
 
 header nav {
-    margin-right: 157px;
+    margin-right: 7.85rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -76,7 +81,7 @@ header ul {
     header ul {
         list-style: none;
         display: flex;
-        gap: 100px;
+        gap: 5rem;
     }
 }
 
@@ -98,75 +103,88 @@ header ul {
 }
 
 .logo {
-    margin: 0 0 0 157px;
+    margin: 0 0 0 7.85rem;
     font-family: 'Bona Nova', serif;
-    font-size: 48px;
+    font-size: 2.4rem;
     font-weight: 400;
 }
 
 .header2 {
     position: absolute;
-    left: 356px;
-    top: 1058px;
-    color: #F2F1F0
+    left: 17.8rem;
+    top: 52.9rem;
+    color: #F2F1F0;
+    animation-name: movein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes movein {
+    from {
+        transform: translate(-600px);
+    }
+
+    to {
+        transform: translate(0px);
+    }
 }
 
 .big-image {
     background-color: #171717;
-    height: 977px;
+    height: 48.85rem;
     width: 100%;
 }
 
 .intro-container {
     font-family: 'Inter', serif;
-    font-size: 24pt;
+    font-size: 1.4rem;
     font-weight: 500;
     position: absolute;
     left: 50%;
-    top: 1398px;
+    top: 69.9rem;
     transform: translate(-50%,-50%);
-    width: 985px;
+    width: 49.25rem;
 }
 
 .image-2 {
     position: absolute;
-    width: 281px;
-    left: 567px;
-    top: 1853px;
+    width: 14.05rem;
+    left: 28.35rem;
+    top: 92.65rem;
 }
 
 .image-1 {
     position: absolute;
-    width: 512px;
-    left: 157px;
-    top: 1766px;
+    width: 25.6rem;
+    left: 7.85rem;
+    top: 88.3rem;
 }
 
 .header3-1 {
     position: absolute;
-    left: 157px;
-    top: 2383px;
+    left: 7.85rem;
+    top: 119.15rem;
 }
 
 .paragraph-container-1 {
     position: absolute;
-    width: 304px;
-    left: 223px;
-    top: 2507px;
+    width: 15.2rem;
+    left: 11.15rem;
+    top: 125.35rem;
 }
 
 .image-3 {
     position: absolute;
-    width: 281px;
-    left: 566px;
-    top: 2507px;
+    width: 14.05rem;
+    left: 28.3rem;
+    top: 125.35rem;
 }
 
 .image-4 {
     position: absolute;
-    width: 585px;
-    left: 157px;
-    top: 2934px;
+    width: 29.25rem;
+    left: 7.85rem;
+    top: 146.7rem;
 }
 
 .image-5 {
