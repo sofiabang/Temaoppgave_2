@@ -53,10 +53,12 @@ body {
 }
 
 header {
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 7rem;
+    width: 100%;
     align-items:center;
     background-color: #171717;
     padding: 1.6rem;
@@ -112,7 +114,7 @@ header ul {
 .header2 {
     position: absolute;
     left: 17.8rem;
-    top: 52.9rem;
+    top: 45.7rem;
     color: #F2F1F0;
     animation-name: movein;
     animation-duration: 2s;
@@ -133,6 +135,7 @@ header ul {
     background-color: #171717;
     height: 48.85rem;
     width: 100%;
+    object-fit: cover;
 }
 
 .intro-container {
@@ -144,6 +147,13 @@ header ul {
     top: 69.9rem;
     transform: translate(-50%,-50%);
     width: 49.25rem;
+}
+
+.section-1 {
+    position: absolute;
+    width: 50%;
+    left: 15%;
+    justify-content: left;
 }
 
 .image-2 {
@@ -189,56 +199,70 @@ header ul {
 
 .image-5 {
     position: absolute;
-    width: 469px;
-    left: 1102px;
-    top: 2363px;
+    width: 23.45rem;
+    left: 55.1rem;
+    top: 118.15rem;
 }
 
 .image-6 {
     position: absolute;
-    width: 264px;
-    left: 970px;
-    top: 2627px;
+    width: 13.2rem;
+    left: 48.5rem;
+    top: 131.35rem;
+}
+
+.section-2 {
+    display: flex;
+    position: absolute;
+    width: 50%;
+    left: 48.1rem;
+    justify-content: right;
+    
+}
+
+@media screen and (max 700px) {
+    
+    
 }
 
 .image-7 {
     position: absolute;
-    width: 512px;
-    left: 962px;
-    top: 3359px;
+    width: 25.6rem;
+    left: 48.1rem;
+    top: 167.95rem;
 }
 
 .image-8 {
     position: absolute;
-    width: 281px;
-    left: 1284px;
-    top: 3454px;
+    width: 14.05rem;
+    left: 64.2rem;
+    top: 172.7rem;
 }
 
 .header3-2 {
     position: absolute;
-    left: 1290px;
-    top: 2893px;
+    left: 64.5rem;
+    top: 144.65rem;
 }
 
 .paragraph-container-2 {
     position: absolute;
-    width: 208px;
-    left: 1357px;
-    top: 2997px;
+    width: 10.4rem;
+    left: 67.85rem;
+    top: 149.85rem;
 }
 
 .header3-3 {
     position: absolute;
-    left: 157px;
-    top: 4026px;
+    left: 7.85rem;
+    top: 201.3rem;
 }
 
 .paragraph-container-3 {
     position: absolute;
-    width: 526px;
-    left: 216px;
-    top: 4136px;
+    width: 26.3rem;
+    left: 10.8rem;
+    top: 206.8rem;
 }
 
 .gallery {
@@ -246,12 +270,12 @@ header ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 104px;
-    margin-top: 5084px;
-    position: relative;
+    gap: 5.2rem;
+    margin-top: 254.2rem;
     
 }
 
 .image-gallery {
-    width: 378px;
+    width: 18rem;
 }
+
