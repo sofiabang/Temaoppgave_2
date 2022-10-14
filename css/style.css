@@ -3,7 +3,6 @@
 
 html {
     font-size: 20px;
-    width: 100%;
 }
 
 h1 {
@@ -59,6 +58,7 @@ header {
     justify-content: space-between;
     height: 7rem;
     width: 100%;
+    z-index: 99999;
     align-items:center;
     background-color: #171717;
     padding: 1.6rem;
@@ -69,7 +69,7 @@ header nav {
     margin-right: 7.85rem;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
     header {
         justify-content: space-between;
     }
@@ -79,7 +79,7 @@ header ul {
     display: none;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
     header ul {
         list-style: none;
         display: flex;
@@ -91,7 +91,7 @@ header ul {
     display: block;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
     .hamburger {
         display: none;
     }
@@ -131,6 +131,11 @@ header ul {
     }
 }
 
+.main {
+    display: flex;
+    flex-grow: row;
+}
+
 .big-image {
     background-color: #171717;
     height: 48.85rem;
@@ -139,143 +144,109 @@ header ul {
 }
 
 .intro-container {
+    display: block;
     font-family: 'Inter', serif;
     font-size: 1.4rem;
-    font-weight: 500;
-    position: absolute;
-    left: 50%;
-    top: 69.9rem;
-    transform: translate(-50%,-50%);
-    width: 49.25rem;
+    padding: 40px;
 }
 
 .section-1 {
-    position: absolute;
-    width: 50%;
-    left: 15%;
-    justify-content: left;
+    display: block;
 }
 
 .image-2 {
-    position: absolute;
     width: 14.05rem;
-    left: 28.35rem;
-    top: 92.65rem;
+    transform: translate(40px, 60px);
 }
 
 .image-1 {
-    position: absolute;
     width: 25.6rem;
-    left: 7.85rem;
-    top: 88.3rem;
-}
-
-.header3-1 {
-    position: absolute;
-    left: 7.85rem;
-    top: 119.15rem;
 }
 
 .paragraph-container-1 {
-    position: absolute;
     width: 15.2rem;
-    left: 11.15rem;
-    top: 125.35rem;
 }
 
 .image-3 {
-    position: absolute;
     width: 14.05rem;
-    left: 28.3rem;
-    top: 125.35rem;
+
 }
 
 .image-4 {
-    position: absolute;
     width: 29.25rem;
-    left: 7.85rem;
-    top: 146.7rem;
 }
 
 .image-5 {
-    position: absolute;
     width: 23.45rem;
-    left: 55.1rem;
-    top: 118.15rem;
 }
 
 .image-6 {
-    position: absolute;
     width: 13.2rem;
-    left: 48.5rem;
-    top: 131.35rem;
 }
 
 .section-2 {
-    display: flex;
-    position: absolute;
-    width: 50%;
-    left: 48.1rem;
-    justify-content: right;
-    
-}
-
-@media screen and (max 700px) {
-    
-    
+    display: block;
 }
 
 .image-7 {
-    position: absolute;
     width: 25.6rem;
-    left: 48.1rem;
-    top: 167.95rem;
 }
 
 .image-8 {
-    position: absolute;
     width: 14.05rem;
-    left: 64.2rem;
-    top: 172.7rem;
-}
-
-.header3-2 {
-    position: absolute;
-    left: 64.5rem;
-    top: 144.65rem;
 }
 
 .paragraph-container-2 {
-    position: absolute;
     width: 10.4rem;
-    left: 67.85rem;
-    top: 149.85rem;
 }
 
 .header3-3 {
-    position: absolute;
+    display: block;
     left: 7.85rem;
     top: 201.3rem;
 }
 
 .paragraph-container-3 {
-    position: absolute;
+    display: block;
     width: 26.3rem;
     left: 10.8rem;
     top: 206.8rem;
 }
 
+.gallery-title {
+    position: absolute;
+    left: 50%;
+    top: 225rem;
+    transform: translate(-50%,-50%);
+    /*width: 49.25rem;*/
+}
+
 .gallery {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 5.2rem;
-    margin-top: 254.2rem;
-    
+    overflow-x: scroll;
+    margin-top: 120rem;
+    margin-bottom: 10rem;
 }
 
 .image-gallery {
     width: 18rem;
 }
 
+footer {
+    position: static;
+    height: 7rem;
+    width: 100%;
+    background-color: #171717;
+    padding: 2rem;
+    color: #F2F1F0;
+}
+
+@media screen and (max-width: 768px) {
+
+    
+    
+}
