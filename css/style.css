@@ -32,6 +32,7 @@ p {
 .first-p {
     font-family: 'Inter', serif;
     font-weight: 500;
+    font-size: 1rem;
 }
 
 .p-meny {
@@ -147,7 +148,7 @@ header ul {
     display: block;
     font-family: 'Inter', serif;
     font-size: 1.4rem;
-    padding: 40px;
+    padding: 180px;
 }
 
 .section-1 {
@@ -156,69 +157,81 @@ header ul {
 
 .image-2 {
     width: 14.05rem;
-    transform: translate(40px, 60px);
+    transform: translate(448px, 100px);
 }
 
 .image-1 {
     width: 25.6rem;
+    transform: translate(-205px, -60px);
+}
+
+.header3-1 {
+    transform: translate(85px, 50px);
 }
 
 .paragraph-container-1 {
-    width: 15.2rem;
+    width: 12rem;
+    transform: translate(134px, 130px);
 }
 
 .image-3 {
     width: 14.05rem;
-
+    transform: translate(448px, 0px);
 }
 
 .image-4 {
     width: 29.25rem;
-}
-
-.image-5 {
-    width: 23.45rem;
-}
-
-.image-6 {
-    width: 13.2rem;
+    transform: translate(-195px, 260px);
 }
 
 .section-2 {
     display: block;
 }
 
-.image-7 {
-    width: 25.6rem;
+.image-5 {
+    width: 23.45rem;
+    transform: translate(280px, 400px);
 }
 
-.image-8 {
-    width: 14.05rem;
+.image-6 {
+    width: 13.2rem;
+    transform: translate(-405px, 720px);
+}
+
+.header3-2{
+    transform: translate(458px, 500px);
 }
 
 .paragraph-container-2 {
     width: 10.4rem;
+    transform: translate(487px, 580px);
+}
+
+.image-7 {
+    width: 25.6rem;
+    transform: translate(-220px, 600px);
+}
+
+.image-8 {
+    width: 14.05rem;
+    transform: translate(435px, 750px);
 }
 
 .header3-3 {
     display: block;
-    left: 7.85rem;
-    top: 201.3rem;
+    transform: translate(85px, 950px);
 }
 
 .paragraph-container-3 {
     display: block;
-    width: 26.3rem;
-    left: 10.8rem;
-    top: 206.8rem;
+    width: 70%;
+    transform: translate(134px, 1050px);
 }
 
 .gallery-title {
-    position: absolute;
-    left: 50%;
-    top: 225rem;
-    transform: translate(-50%,-50%);
-    /*width: 49.25rem;*/
+    display: block;
+    margin-top: 60rem;
+    padding: 180px;
 }
 
 .gallery {
@@ -228,7 +241,6 @@ header ul {
     align-items: center;
     gap: 5.2rem;
     overflow-x: scroll;
-    margin-top: 120rem;
     margin-bottom: 10rem;
 }
 
